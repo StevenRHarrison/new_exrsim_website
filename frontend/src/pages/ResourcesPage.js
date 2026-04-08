@@ -18,11 +18,12 @@ const ResourcesPage: React.FC = () => {
       url: 'https://customer-assets.emergentagent.com/job_web-constructor-114/artifacts/jb7d65zh_EXRSIM_Whitepaper.pdf'
     },
     {
-      title: 'Indigenous Community Emergency Response Protocols',
-      description: 'Guidelines for respectful and effective emergency management in Indigenous communities.',
-      downloadCount: '1,200+',
-      pages: '24 pages',
-      type: 'Best Practices'
+      title: 'Multi-Agency Coordination Best Practices',
+      description: 'Essential guidelines for effective collaboration between emergency response organizations using unified command, shared situational awareness, and interoperable communications.',
+      downloadCount: '375+',
+      pages: '2 pages',
+      type: 'Best Practices',
+      url: 'https://customer-assets.emergentagent.com/job_web-constructor-114/artifacts/nsoo7uad_Multi_Agency_Response.pdf'
     }
   ];
 
