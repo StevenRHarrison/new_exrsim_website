@@ -29,21 +29,6 @@ const ResourcesPage: React.FC = () => {
 
   const webinars = [
     {
-      title: 'Whitepaper 2026',
-      type: 'EXRSIM Staff - Whitepaper',
-      description: 'A thorough overview of the EXRSIM platform.',
-      pages: '16 pages',
-      downloadCount: '350+',
-      date: 'Oct 2025'
-    },
-    {
-      title: 'Hospital Emergency Preparedness: Mass Casualty Management',
-      presenter: 'Dr. Elena Rodriguez, Toronto General Hospital',
-      duration: '38 minutes',
-      viewers: '800+',
-      date: 'September 2024'
-    },
-    {
       title: 'Municipal Flood Response: Technology and Coordination',
       presenter: 'Tom Sampson, City of Calgary EMO',
       duration: '42 minutes',
