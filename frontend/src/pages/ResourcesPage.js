@@ -4,9 +4,7 @@ import {
   Video, 
   FileText, 
   Download,
-  ExternalLink, 
-  Calendar,
-  Users
+  ExternalLink
 } from 'lucide-react';
 
 const ResourcesPage: React.FC = () => {
@@ -118,30 +116,6 @@ const ResourcesPage: React.FC = () => {
     }
   ];
 
-  const upcomingEvents = [
-    {
-      title: 'Canadian Emergency Management Conference 2025',
-      date: 'March 15-17, 2025',
-      location: 'Toronto, ON',
-      type: 'Conference',
-      description: 'Annual gathering of emergency management professionals from across Canada.'
-    },
-    {
-      title: 'Winter Storm Response Workshop',
-      date: 'January 28, 2025',
-      location: 'Virtual',
-      type: 'Workshop',
-      description: 'Interactive workshop on preparing for and responding to severe winter weather events.'
-    },
-    {
-      title: 'Cybersecurity in Emergency Management Seminar',
-      date: 'February 12, 2025',
-      location: 'Ottawa, ON',
-      type: 'Seminar',
-      description: 'Exploring the intersection of cybersecurity and emergency response coordination.'
-    }
-  ];
-
   return (
     <div className="pt-24 sm:pt-22 md:pt-20">
       {/* Hero Section */}
@@ -156,7 +130,7 @@ const ResourcesPage: React.FC = () => {
           </p>
           
           {/* Resource Categories */}
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-3xl mx-auto">
             <div className="text-center">
               <FileText className="h-8 w-8 text-exrsim-orange mx-auto mb-2" />
               <div className="text-white font-semibold">Whitepapers</div>
@@ -171,11 +145,6 @@ const ResourcesPage: React.FC = () => {
               <BookOpen className="h-8 w-8 text-exrsim-orange mx-auto mb-2" />
               <div className="text-white font-semibold">Blog</div>
               <div className="text-gray-400 text-sm">Industry Insights</div>
-            </div>
-            <div className="text-center">
-              <Calendar className="h-8 w-8 text-exrsim-orange mx-auto mb-2" />
-              <div className="text-white font-semibold">Events</div>
-              <div className="text-gray-400 text-sm">Training & Conferences</div>
             </div>
           </div>
         </div>
@@ -294,49 +263,6 @@ const ResourcesPage: React.FC = () => {
             <button className="btn-primary text-white px-8 py-3 rounded-lg font-medium">
               View All Blog Posts
             </button>
-          </div>
-        </div>
-      </section>
-
-      {/* Events Section */}
-      <section className="section-padding bg-exrsim-dark">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold text-white mb-4">Upcoming Events</h2>
-            <p className="text-lg text-gray-300 max-w-3xl mx-auto">
-              Join us at conferences, workshops, and training events across Canada.
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {upcomingEvents.map((event, index) => (
-              <div key={index} className="bg-exrsim-gray rounded-lg p-6 border border-gray-700">
-                <div className="flex items-center mb-4">
-                  <Calendar className="h-6 w-6 text-exrsim-orange mr-3" />
-                  <span className="bg-exrsim-orange/20 text-exrsim-orange px-3 py-1 rounded-full text-sm font-medium">
-                    {event.type}
-                  </span>
-                </div>
-                
-                <h3 className="text-lg font-bold text-white mb-3">{event.title}</h3>
-                <p className="text-gray-300 mb-4 text-sm">{event.description}</p>
-                
-                <div className="space-y-2 text-sm text-gray-400 mb-4">
-                  <div className="flex items-center">
-                    <Calendar className="h-4 w-4 mr-2" />
-                    <span>{event.date}</span>
-                  </div>
-                  <div className="flex items-center">
-                    <Users className="h-4 w-4 mr-2" />
-                    <span>{event.location}</span>
-                  </div>
-                </div>
-                
-                <button className="w-full bg-white/10 border border-white/20 text-white py-2 rounded-lg font-medium hover:bg-white/20 transition-colors">
-                  Learn More
-                </button>
-              </div>
-            ))}
           </div>
         </div>
       </section>
