@@ -10,11 +10,12 @@ import {
 const ResourcesPage: React.FC = () => {
   const whitepapers = [
     {
-      title: 'Emergencies Preparedness in Canadian Winter Conditions',
-      description: 'Comprehensive guide to managing emergency responses during severe Canadian winter weather.',
-      downloadCount: '2,400+',
-      pages: '32 pages',
-      type: 'Whitepaper'
+      title: 'EXRSIM: Emergency Exercise & Incident Management Platform',
+      description: 'A comprehensive overview of the EXRSIM platform for integrated emergency preparedness, exercise design, and ICS-compliant incident management.',
+      downloadCount: '250+',
+      pages: '16 pages',
+      type: 'Whitepaper',
+      url: 'https://customer-assets.emergentagent.com/job_web-constructor-114/artifacts/jb7d65zh_EXRSIM_Whitepaper.pdf'
     },
     {
       title: 'Multi-Agency Coordination Best Practices',
