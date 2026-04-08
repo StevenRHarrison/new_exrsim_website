@@ -18,25 +18,11 @@ const ResourcesPage: React.FC = () => {
       url: 'https://customer-assets.emergentagent.com/job_web-constructor-114/artifacts/jb7d65zh_EXRSIM_Whitepaper.pdf'
     },
     {
-      title: 'Multi-Agency Coordination Best Practices',
-      description: 'Research-based recommendations for effective inter-agency collaboration during emergencies.',
-      downloadCount: '1,800+',
-      pages: '28 pages',
-      type: 'Research Report'
-    },
-    {
       title: 'Indigenous Community Emergency Response Protocols',
       description: 'Guidelines for respectful and effective emergency management in Indigenous communities.',
       downloadCount: '1,200+',
       pages: '24 pages',
       type: 'Best Practices'
-    },
-    {
-      title: 'Cyber Infrastructure Protection Guidelines',
-      description: 'Strategies for protecting critical infrastructure from cyber attacks during emergencies.',
-      downloadCount: '3,100+',
-      pages: '36 pages',
-      type: 'Security Guide'
     }
   ];
 
