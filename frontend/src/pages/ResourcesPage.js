@@ -30,14 +30,12 @@ const ResourcesPage: React.FC = () => {
   const webinars = [
     {
       title: 'Municipal Flood Response: Technology and Coordination',
-      presenter: 'Tom Sampson, City of Calgary EMO',
       duration: '42 minutes',
       viewers: '950+',
       date: 'August 2024'
     },
     {
       title: 'Pipeline Emergency Response: Environmental Protection',
-      presenter: 'Michael Singh, TC Energy',
       duration: '35 minutes',
       viewers: '650+',
       date: 'July 2024'
